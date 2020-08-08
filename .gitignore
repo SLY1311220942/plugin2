@@ -2,3 +2,7 @@
 /plugin.iml
 /plugin-common/target/classes/com/sly/plugin/common/
 /plugin-validate/target/classes/
+/plugin-email/plugin-email.iml
+/plugin-qrcode/plugin-qrcode.iml
+/plugin-sensitiveword/plugin-sensitiveword.iml
+/plugin-xssfilter/plugin-xssfilter.iml

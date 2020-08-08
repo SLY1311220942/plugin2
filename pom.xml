@@ -6,6 +6,10 @@
     <modules>
         <module>plugin-common</module>
         <module>plugin-validate</module>
+        <module>plugin-email</module>
+        <module>plugin-qrcode</module>
+        <module>plugin-sensitiveword</module>
+        <module>plugin-xssfilter</module>
     </modules>
 
     <parent>
