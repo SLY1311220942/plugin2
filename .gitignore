@@ -6,3 +6,7 @@
 /plugin-qrcode/plugin-qrcode.iml
 /plugin-sensitiveword/plugin-sensitiveword.iml
 /plugin-xssfilter/plugin-xssfilter.iml
+/plugin-email/target/classes/
+/plugin-qrcode/target/classes/com/sly/plugin/qrcode/
+/plugin-sensitiveword/target/classes/
+/plugin-xssfilter/target/classes/
