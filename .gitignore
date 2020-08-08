@@ -1,2 +1,4 @@
 /.idea/
 /plugin.iml
+/plugin-common/target/classes/com/sly/plugin/common/
+/plugin-validate/target/classes/
