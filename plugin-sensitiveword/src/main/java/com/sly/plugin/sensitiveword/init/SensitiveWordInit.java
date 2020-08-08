@@ -41,9 +41,9 @@ public class SensitiveWordInit {
 	 */
     public Map<Object,Object> initKeyWord(InputStream in){
         try {
-            //读取敏感词库
+            // 读取敏感词库
             Set<String> keyWordSet = readSensitiveWordFile(in);
-            //将敏感词库加入到HashMap中
+            // 将敏感词库加入到HashMap中
             addSensitiveWordToHashMap(keyWordSet);
         } catch (Exception e) {
             e.printStackTrace();
@@ -61,9 +61,9 @@ public class SensitiveWordInit {
 	 */
     public Map<Object,Object> initKeyWord(List<String> keyWordList){
         try {
-            //读取敏感词库
+            // 读取敏感词库
             Set<String> keyWordSet = new HashSet<>(keyWordList);
-            //将敏感词库加入到HashMap中
+            // 将敏感词库加入到HashMap中
             addSensitiveWordToHashMap(keyWordSet);
         } catch (Exception e) {
             e.printStackTrace();

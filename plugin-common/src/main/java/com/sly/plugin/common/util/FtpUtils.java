@@ -56,8 +56,8 @@ public class FtpUtils {
 		boolean flag = true;
 		if (ftpClient == null) {
 			ftpClient = new FTPClient();
-			//ftp通过ser-u构建，出现的问题
-			//ftpClient.configure(new FTPClientConfig("com.xpp.util.filezillapatch.UnixFTPEntryParser"));
+			// ftp通过ser-u构建，出现的问题
+			// ftpClient.configure(new FTPClientConfig("com.xpp.util.filezillapatch.UnixFTPEntryParser"));
 			ftpClient.connect(ip, port);
 
 			System.out.println("Connected to " + ip);
